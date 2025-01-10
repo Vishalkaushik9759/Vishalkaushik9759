@@ -1,0 +1,39 @@
+/* Basic Styling for the Navbar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}

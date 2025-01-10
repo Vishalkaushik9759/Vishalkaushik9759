@@ -1,0 +1,46 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px; /* Fixed width */
+    height: 500px; /* Fixed height */
+    background-color: #ffffff;
+    border: 2px solid #ddd; /* Border for visibility */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text in the paragraph */
+}
+
+/* Image styles */
+.image {
+    max-width: 100%; /* Ensure the image does not exceed container width */
+    height: auto;
+    margin-bottom: 20px; /* Add space between image and paragraph */
+}
+
+/* Paragraph styles */
+.content {
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word; /* Ensure long text wraps properly */
+    margin: 0;
+}
